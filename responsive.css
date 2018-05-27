@@ -1,0 +1,114 @@
+
+
+h1 {
+   font-family: "Microsoft YaHei Light";
+   font-size:5em;
+   text-transform: uppercase;
+}
+
+.text {
+    font-family: "Microsoft YaHei Light";
+    font-size: 2em;
+    text-transform: uppercase;
+}
+.wrk-text {
+    font-family: "Bahnschrift Light";
+    font-size: 15px;
+    color: #7597ad;
+}
+.text-item {
+  text-transform: uppercase;
+  color: #2d3c49;
+  font-family: "Microsoft YaHei Light";
+  font-size: 2em;
+}
+.text-title {
+  color: #2d3c49;
+  font-family: "Microsoft YaHei Light";
+  font-size: 1em;
+  }
+header {
+  border-bottom: 2px solid #7d97ad;
+}
+
+
+
+ body {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+ }
+ .hdr-content {
+   margin: 0;
+   padding: 100px;
+   text-align: center;
+ }
+ .hdr-img {
+   border-radius: 10px;
+   width: 50%;
+   height: 50%;
+ }
+
+ .hero {
+   text-align: center;
+ }
+
+.responsive-img {
+  height: auto;
+  max-width: 400px;
+}
+
+.wrk-text {
+  text-align: center;
+}
+
+.container {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container-img {
+  border-radius: 10px;
+   width: 40%;
+   height: 40%;
+}
+ @media screen and (min-width: 480px) {
+   .hdr-content{
+     font-size: 7vm;
+   }
+   .wrk-text {
+     font-size: 4vm
+   }
+ }
+
+ @media screen and (min-width: 750px) {
+   .hdr-logo, .hdr-text{
+     display: flex;
+     margin: auto;
+   }
+   .hdr-content {
+     text-align:left;
+     height: 25%;
+     width: 25%;
+   }
+   .hero{
+     display:flex;
+     flex-wrap: nowrap;
+   }
+   .hero-img{
+     width:100%;
+     height:100%;
+   }
+   .wrk-text {
+     text-align: left;
+   }
+   .container {
+     display:flex;
+  }
+  .container-img {
+    width:80%;
+
+  .cntr-text {
+    margin: 0;
+  }
